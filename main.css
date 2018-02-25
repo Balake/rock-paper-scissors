@@ -1,0 +1,44 @@
+body {
+    display: grid;
+    grid-template-columns: 33vw 33vw 33vw;
+    grid-template-rows: minmax(100px, 15vh) 85vh;
+    font-family: 'Courier New', Courier, monospace;
+    background: #3a3838;
+    color: white;
+    text-align: center;
+}
+
+header {
+    grid-column: 1 / 4;
+}
+
+
+.game {
+    display: grid;
+    grid-template-columns: 33vw 33vw 33vw;
+}
+
+.left {
+    grid-column: 1 / 1;
+}
+
+.center {
+    grid-column: 2 / 2;
+}
+
+.right {
+    grid-column: 3 / 3;
+}
+
+button {
+    height: 50px;
+    background: gray;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#new-game {
+    display: block;
+    margin: auto;
+}
